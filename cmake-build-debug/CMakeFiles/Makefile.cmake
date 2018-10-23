@@ -45,5 +45,24 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/kqueue.dir/DependInfo.cmake"
+  "CMakeFiles/udp-cli.dir/DependInfo.cmake"
+  "CMakeFiles/10m-cli.dir/DependInfo.cmake"
+  "CMakeFiles/timer.dir/DependInfo.cmake"
+  "CMakeFiles/udp-svr.dir/DependInfo.cmake"
+  "CMakeFiles/stat.dir/DependInfo.cmake"
+  "CMakeFiles/safe-close.dir/DependInfo.cmake"
+  "CMakeFiles/write-on-empty.dir/DependInfo.cmake"
+  "CMakeFiles/codec-svr.dir/DependInfo.cmake"
+  "CMakeFiles/udp-hsha.dir/DependInfo.cmake"
+  "CMakeFiles/daemon.dir/DependInfo.cmake"
   "CMakeFiles/test_main.dir/DependInfo.cmake"
+  "CMakeFiles/http-hello.dir/DependInfo.cmake"
+  "CMakeFiles/handy.dir/DependInfo.cmake"
+  "CMakeFiles/idle-close.dir/DependInfo.cmake"
+  "CMakeFiles/echo.dir/DependInfo.cmake"
+  "CMakeFiles/codec-cli.dir/DependInfo.cmake"
+  "CMakeFiles/hsha.dir/DependInfo.cmake"
+  "CMakeFiles/10m-svr.dir/DependInfo.cmake"
+  "CMakeFiles/reconnect.dir/DependInfo.cmake"
   )

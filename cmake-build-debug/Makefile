@@ -111,6 +111,149 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named kqueue
+
+# Build rule for target.
+kqueue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kqueue
+.PHONY : kqueue
+
+# fast build rule for target.
+kqueue/fast:
+	$(MAKE) -f CMakeFiles/kqueue.dir/build.make CMakeFiles/kqueue.dir/build
+.PHONY : kqueue/fast
+
+#=============================================================================
+# Target rules for targets named udp-cli
+
+# Build rule for target.
+udp-cli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 udp-cli
+.PHONY : udp-cli
+
+# fast build rule for target.
+udp-cli/fast:
+	$(MAKE) -f CMakeFiles/udp-cli.dir/build.make CMakeFiles/udp-cli.dir/build
+.PHONY : udp-cli/fast
+
+#=============================================================================
+# Target rules for targets named 10m-cli
+
+# Build rule for target.
+10m-cli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 10m-cli
+.PHONY : 10m-cli
+
+# fast build rule for target.
+10m-cli/fast:
+	$(MAKE) -f CMakeFiles/10m-cli.dir/build.make CMakeFiles/10m-cli.dir/build
+.PHONY : 10m-cli/fast
+
+#=============================================================================
+# Target rules for targets named timer
+
+# Build rule for target.
+timer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 timer
+.PHONY : timer
+
+# fast build rule for target.
+timer/fast:
+	$(MAKE) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/build
+.PHONY : timer/fast
+
+#=============================================================================
+# Target rules for targets named udp-svr
+
+# Build rule for target.
+udp-svr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 udp-svr
+.PHONY : udp-svr
+
+# fast build rule for target.
+udp-svr/fast:
+	$(MAKE) -f CMakeFiles/udp-svr.dir/build.make CMakeFiles/udp-svr.dir/build
+.PHONY : udp-svr/fast
+
+#=============================================================================
+# Target rules for targets named stat
+
+# Build rule for target.
+stat: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stat
+.PHONY : stat
+
+# fast build rule for target.
+stat/fast:
+	$(MAKE) -f CMakeFiles/stat.dir/build.make CMakeFiles/stat.dir/build
+.PHONY : stat/fast
+
+#=============================================================================
+# Target rules for targets named safe-close
+
+# Build rule for target.
+safe-close: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 safe-close
+.PHONY : safe-close
+
+# fast build rule for target.
+safe-close/fast:
+	$(MAKE) -f CMakeFiles/safe-close.dir/build.make CMakeFiles/safe-close.dir/build
+.PHONY : safe-close/fast
+
+#=============================================================================
+# Target rules for targets named write-on-empty
+
+# Build rule for target.
+write-on-empty: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 write-on-empty
+.PHONY : write-on-empty
+
+# fast build rule for target.
+write-on-empty/fast:
+	$(MAKE) -f CMakeFiles/write-on-empty.dir/build.make CMakeFiles/write-on-empty.dir/build
+.PHONY : write-on-empty/fast
+
+#=============================================================================
+# Target rules for targets named codec-svr
+
+# Build rule for target.
+codec-svr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 codec-svr
+.PHONY : codec-svr
+
+# fast build rule for target.
+codec-svr/fast:
+	$(MAKE) -f CMakeFiles/codec-svr.dir/build.make CMakeFiles/codec-svr.dir/build
+.PHONY : codec-svr/fast
+
+#=============================================================================
+# Target rules for targets named udp-hsha
+
+# Build rule for target.
+udp-hsha: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 udp-hsha
+.PHONY : udp-hsha
+
+# fast build rule for target.
+udp-hsha/fast:
+	$(MAKE) -f CMakeFiles/udp-hsha.dir/build.make CMakeFiles/udp-hsha.dir/build
+.PHONY : udp-hsha/fast
+
+#=============================================================================
+# Target rules for targets named daemon
+
+# Build rule for target.
+daemon: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 daemon
+.PHONY : daemon
+
+# fast build rule for target.
+daemon/fast:
+	$(MAKE) -f CMakeFiles/daemon.dir/build.make CMakeFiles/daemon.dir/build
+.PHONY : daemon/fast
+
+#=============================================================================
 # Target rules for targets named test_main
 
 # Build rule for target.
@@ -122,6 +265,1001 @@ test_main: cmake_check_build_system
 test_main/fast:
 	$(MAKE) -f CMakeFiles/test_main.dir/build.make CMakeFiles/test_main.dir/build
 .PHONY : test_main/fast
+
+#=============================================================================
+# Target rules for targets named http-hello
+
+# Build rule for target.
+http-hello: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 http-hello
+.PHONY : http-hello
+
+# fast build rule for target.
+http-hello/fast:
+	$(MAKE) -f CMakeFiles/http-hello.dir/build.make CMakeFiles/http-hello.dir/build
+.PHONY : http-hello/fast
+
+#=============================================================================
+# Target rules for targets named handy
+
+# Build rule for target.
+handy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 handy
+.PHONY : handy
+
+# fast build rule for target.
+handy/fast:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/build
+.PHONY : handy/fast
+
+#=============================================================================
+# Target rules for targets named idle-close
+
+# Build rule for target.
+idle-close: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 idle-close
+.PHONY : idle-close
+
+# fast build rule for target.
+idle-close/fast:
+	$(MAKE) -f CMakeFiles/idle-close.dir/build.make CMakeFiles/idle-close.dir/build
+.PHONY : idle-close/fast
+
+#=============================================================================
+# Target rules for targets named echo
+
+# Build rule for target.
+echo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echo
+.PHONY : echo
+
+# fast build rule for target.
+echo/fast:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/build
+.PHONY : echo/fast
+
+#=============================================================================
+# Target rules for targets named codec-cli
+
+# Build rule for target.
+codec-cli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 codec-cli
+.PHONY : codec-cli
+
+# fast build rule for target.
+codec-cli/fast:
+	$(MAKE) -f CMakeFiles/codec-cli.dir/build.make CMakeFiles/codec-cli.dir/build
+.PHONY : codec-cli/fast
+
+#=============================================================================
+# Target rules for targets named hsha
+
+# Build rule for target.
+hsha: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hsha
+.PHONY : hsha
+
+# fast build rule for target.
+hsha/fast:
+	$(MAKE) -f CMakeFiles/hsha.dir/build.make CMakeFiles/hsha.dir/build
+.PHONY : hsha/fast
+
+#=============================================================================
+# Target rules for targets named 10m-svr
+
+# Build rule for target.
+10m-svr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 10m-svr
+.PHONY : 10m-svr
+
+# fast build rule for target.
+10m-svr/fast:
+	$(MAKE) -f CMakeFiles/10m-svr.dir/build.make CMakeFiles/10m-svr.dir/build
+.PHONY : 10m-svr/fast
+
+#=============================================================================
+# Target rules for targets named reconnect
+
+# Build rule for target.
+reconnect: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reconnect
+.PHONY : reconnect
+
+# fast build rule for target.
+reconnect/fast:
+	$(MAKE) -f CMakeFiles/reconnect.dir/build.make CMakeFiles/reconnect.dir/build
+.PHONY : reconnect/fast
+
+src/support/handy/10m/10m-cli.o: src/support/handy/10m/10m-cli.cc.o
+
+.PHONY : src/support/handy/10m/10m-cli.o
+
+# target to build an object file
+src/support/handy/10m/10m-cli.cc.o:
+	$(MAKE) -f CMakeFiles/10m-cli.dir/build.make CMakeFiles/10m-cli.dir/src/support/handy/10m/10m-cli.cc.o
+.PHONY : src/support/handy/10m/10m-cli.cc.o
+
+src/support/handy/10m/10m-cli.i: src/support/handy/10m/10m-cli.cc.i
+
+.PHONY : src/support/handy/10m/10m-cli.i
+
+# target to preprocess a source file
+src/support/handy/10m/10m-cli.cc.i:
+	$(MAKE) -f CMakeFiles/10m-cli.dir/build.make CMakeFiles/10m-cli.dir/src/support/handy/10m/10m-cli.cc.i
+.PHONY : src/support/handy/10m/10m-cli.cc.i
+
+src/support/handy/10m/10m-cli.s: src/support/handy/10m/10m-cli.cc.s
+
+.PHONY : src/support/handy/10m/10m-cli.s
+
+# target to generate assembly for a file
+src/support/handy/10m/10m-cli.cc.s:
+	$(MAKE) -f CMakeFiles/10m-cli.dir/build.make CMakeFiles/10m-cli.dir/src/support/handy/10m/10m-cli.cc.s
+.PHONY : src/support/handy/10m/10m-cli.cc.s
+
+src/support/handy/10m/10m-svr.o: src/support/handy/10m/10m-svr.cc.o
+
+.PHONY : src/support/handy/10m/10m-svr.o
+
+# target to build an object file
+src/support/handy/10m/10m-svr.cc.o:
+	$(MAKE) -f CMakeFiles/10m-svr.dir/build.make CMakeFiles/10m-svr.dir/src/support/handy/10m/10m-svr.cc.o
+.PHONY : src/support/handy/10m/10m-svr.cc.o
+
+src/support/handy/10m/10m-svr.i: src/support/handy/10m/10m-svr.cc.i
+
+.PHONY : src/support/handy/10m/10m-svr.i
+
+# target to preprocess a source file
+src/support/handy/10m/10m-svr.cc.i:
+	$(MAKE) -f CMakeFiles/10m-svr.dir/build.make CMakeFiles/10m-svr.dir/src/support/handy/10m/10m-svr.cc.i
+.PHONY : src/support/handy/10m/10m-svr.cc.i
+
+src/support/handy/10m/10m-svr.s: src/support/handy/10m/10m-svr.cc.s
+
+.PHONY : src/support/handy/10m/10m-svr.s
+
+# target to generate assembly for a file
+src/support/handy/10m/10m-svr.cc.s:
+	$(MAKE) -f CMakeFiles/10m-svr.dir/build.make CMakeFiles/10m-svr.dir/src/support/handy/10m/10m-svr.cc.s
+.PHONY : src/support/handy/10m/10m-svr.cc.s
+
+src/support/handy/examples/codec-cli.o: src/support/handy/examples/codec-cli.cc.o
+
+.PHONY : src/support/handy/examples/codec-cli.o
+
+# target to build an object file
+src/support/handy/examples/codec-cli.cc.o:
+	$(MAKE) -f CMakeFiles/codec-cli.dir/build.make CMakeFiles/codec-cli.dir/src/support/handy/examples/codec-cli.cc.o
+.PHONY : src/support/handy/examples/codec-cli.cc.o
+
+src/support/handy/examples/codec-cli.i: src/support/handy/examples/codec-cli.cc.i
+
+.PHONY : src/support/handy/examples/codec-cli.i
+
+# target to preprocess a source file
+src/support/handy/examples/codec-cli.cc.i:
+	$(MAKE) -f CMakeFiles/codec-cli.dir/build.make CMakeFiles/codec-cli.dir/src/support/handy/examples/codec-cli.cc.i
+.PHONY : src/support/handy/examples/codec-cli.cc.i
+
+src/support/handy/examples/codec-cli.s: src/support/handy/examples/codec-cli.cc.s
+
+.PHONY : src/support/handy/examples/codec-cli.s
+
+# target to generate assembly for a file
+src/support/handy/examples/codec-cli.cc.s:
+	$(MAKE) -f CMakeFiles/codec-cli.dir/build.make CMakeFiles/codec-cli.dir/src/support/handy/examples/codec-cli.cc.s
+.PHONY : src/support/handy/examples/codec-cli.cc.s
+
+src/support/handy/examples/codec-svr.o: src/support/handy/examples/codec-svr.cc.o
+
+.PHONY : src/support/handy/examples/codec-svr.o
+
+# target to build an object file
+src/support/handy/examples/codec-svr.cc.o:
+	$(MAKE) -f CMakeFiles/codec-svr.dir/build.make CMakeFiles/codec-svr.dir/src/support/handy/examples/codec-svr.cc.o
+.PHONY : src/support/handy/examples/codec-svr.cc.o
+
+src/support/handy/examples/codec-svr.i: src/support/handy/examples/codec-svr.cc.i
+
+.PHONY : src/support/handy/examples/codec-svr.i
+
+# target to preprocess a source file
+src/support/handy/examples/codec-svr.cc.i:
+	$(MAKE) -f CMakeFiles/codec-svr.dir/build.make CMakeFiles/codec-svr.dir/src/support/handy/examples/codec-svr.cc.i
+.PHONY : src/support/handy/examples/codec-svr.cc.i
+
+src/support/handy/examples/codec-svr.s: src/support/handy/examples/codec-svr.cc.s
+
+.PHONY : src/support/handy/examples/codec-svr.s
+
+# target to generate assembly for a file
+src/support/handy/examples/codec-svr.cc.s:
+	$(MAKE) -f CMakeFiles/codec-svr.dir/build.make CMakeFiles/codec-svr.dir/src/support/handy/examples/codec-svr.cc.s
+.PHONY : src/support/handy/examples/codec-svr.cc.s
+
+src/support/handy/examples/daemon.o: src/support/handy/examples/daemon.cc.o
+
+.PHONY : src/support/handy/examples/daemon.o
+
+# target to build an object file
+src/support/handy/examples/daemon.cc.o:
+	$(MAKE) -f CMakeFiles/daemon.dir/build.make CMakeFiles/daemon.dir/src/support/handy/examples/daemon.cc.o
+.PHONY : src/support/handy/examples/daemon.cc.o
+
+src/support/handy/examples/daemon.i: src/support/handy/examples/daemon.cc.i
+
+.PHONY : src/support/handy/examples/daemon.i
+
+# target to preprocess a source file
+src/support/handy/examples/daemon.cc.i:
+	$(MAKE) -f CMakeFiles/daemon.dir/build.make CMakeFiles/daemon.dir/src/support/handy/examples/daemon.cc.i
+.PHONY : src/support/handy/examples/daemon.cc.i
+
+src/support/handy/examples/daemon.s: src/support/handy/examples/daemon.cc.s
+
+.PHONY : src/support/handy/examples/daemon.s
+
+# target to generate assembly for a file
+src/support/handy/examples/daemon.cc.s:
+	$(MAKE) -f CMakeFiles/daemon.dir/build.make CMakeFiles/daemon.dir/src/support/handy/examples/daemon.cc.s
+.PHONY : src/support/handy/examples/daemon.cc.s
+
+src/support/handy/examples/echo.o: src/support/handy/examples/echo.cc.o
+
+.PHONY : src/support/handy/examples/echo.o
+
+# target to build an object file
+src/support/handy/examples/echo.cc.o:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/src/support/handy/examples/echo.cc.o
+.PHONY : src/support/handy/examples/echo.cc.o
+
+src/support/handy/examples/echo.i: src/support/handy/examples/echo.cc.i
+
+.PHONY : src/support/handy/examples/echo.i
+
+# target to preprocess a source file
+src/support/handy/examples/echo.cc.i:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/src/support/handy/examples/echo.cc.i
+.PHONY : src/support/handy/examples/echo.cc.i
+
+src/support/handy/examples/echo.s: src/support/handy/examples/echo.cc.s
+
+.PHONY : src/support/handy/examples/echo.s
+
+# target to generate assembly for a file
+src/support/handy/examples/echo.cc.s:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/src/support/handy/examples/echo.cc.s
+.PHONY : src/support/handy/examples/echo.cc.s
+
+src/support/handy/examples/hsha.o: src/support/handy/examples/hsha.cc.o
+
+.PHONY : src/support/handy/examples/hsha.o
+
+# target to build an object file
+src/support/handy/examples/hsha.cc.o:
+	$(MAKE) -f CMakeFiles/hsha.dir/build.make CMakeFiles/hsha.dir/src/support/handy/examples/hsha.cc.o
+.PHONY : src/support/handy/examples/hsha.cc.o
+
+src/support/handy/examples/hsha.i: src/support/handy/examples/hsha.cc.i
+
+.PHONY : src/support/handy/examples/hsha.i
+
+# target to preprocess a source file
+src/support/handy/examples/hsha.cc.i:
+	$(MAKE) -f CMakeFiles/hsha.dir/build.make CMakeFiles/hsha.dir/src/support/handy/examples/hsha.cc.i
+.PHONY : src/support/handy/examples/hsha.cc.i
+
+src/support/handy/examples/hsha.s: src/support/handy/examples/hsha.cc.s
+
+.PHONY : src/support/handy/examples/hsha.s
+
+# target to generate assembly for a file
+src/support/handy/examples/hsha.cc.s:
+	$(MAKE) -f CMakeFiles/hsha.dir/build.make CMakeFiles/hsha.dir/src/support/handy/examples/hsha.cc.s
+.PHONY : src/support/handy/examples/hsha.cc.s
+
+src/support/handy/examples/http-hello.o: src/support/handy/examples/http-hello.cc.o
+
+.PHONY : src/support/handy/examples/http-hello.o
+
+# target to build an object file
+src/support/handy/examples/http-hello.cc.o:
+	$(MAKE) -f CMakeFiles/http-hello.dir/build.make CMakeFiles/http-hello.dir/src/support/handy/examples/http-hello.cc.o
+.PHONY : src/support/handy/examples/http-hello.cc.o
+
+src/support/handy/examples/http-hello.i: src/support/handy/examples/http-hello.cc.i
+
+.PHONY : src/support/handy/examples/http-hello.i
+
+# target to preprocess a source file
+src/support/handy/examples/http-hello.cc.i:
+	$(MAKE) -f CMakeFiles/http-hello.dir/build.make CMakeFiles/http-hello.dir/src/support/handy/examples/http-hello.cc.i
+.PHONY : src/support/handy/examples/http-hello.cc.i
+
+src/support/handy/examples/http-hello.s: src/support/handy/examples/http-hello.cc.s
+
+.PHONY : src/support/handy/examples/http-hello.s
+
+# target to generate assembly for a file
+src/support/handy/examples/http-hello.cc.s:
+	$(MAKE) -f CMakeFiles/http-hello.dir/build.make CMakeFiles/http-hello.dir/src/support/handy/examples/http-hello.cc.s
+.PHONY : src/support/handy/examples/http-hello.cc.s
+
+src/support/handy/examples/idle-close.o: src/support/handy/examples/idle-close.cc.o
+
+.PHONY : src/support/handy/examples/idle-close.o
+
+# target to build an object file
+src/support/handy/examples/idle-close.cc.o:
+	$(MAKE) -f CMakeFiles/idle-close.dir/build.make CMakeFiles/idle-close.dir/src/support/handy/examples/idle-close.cc.o
+.PHONY : src/support/handy/examples/idle-close.cc.o
+
+src/support/handy/examples/idle-close.i: src/support/handy/examples/idle-close.cc.i
+
+.PHONY : src/support/handy/examples/idle-close.i
+
+# target to preprocess a source file
+src/support/handy/examples/idle-close.cc.i:
+	$(MAKE) -f CMakeFiles/idle-close.dir/build.make CMakeFiles/idle-close.dir/src/support/handy/examples/idle-close.cc.i
+.PHONY : src/support/handy/examples/idle-close.cc.i
+
+src/support/handy/examples/idle-close.s: src/support/handy/examples/idle-close.cc.s
+
+.PHONY : src/support/handy/examples/idle-close.s
+
+# target to generate assembly for a file
+src/support/handy/examples/idle-close.cc.s:
+	$(MAKE) -f CMakeFiles/idle-close.dir/build.make CMakeFiles/idle-close.dir/src/support/handy/examples/idle-close.cc.s
+.PHONY : src/support/handy/examples/idle-close.cc.s
+
+src/support/handy/examples/reconnect.o: src/support/handy/examples/reconnect.cc.o
+
+.PHONY : src/support/handy/examples/reconnect.o
+
+# target to build an object file
+src/support/handy/examples/reconnect.cc.o:
+	$(MAKE) -f CMakeFiles/reconnect.dir/build.make CMakeFiles/reconnect.dir/src/support/handy/examples/reconnect.cc.o
+.PHONY : src/support/handy/examples/reconnect.cc.o
+
+src/support/handy/examples/reconnect.i: src/support/handy/examples/reconnect.cc.i
+
+.PHONY : src/support/handy/examples/reconnect.i
+
+# target to preprocess a source file
+src/support/handy/examples/reconnect.cc.i:
+	$(MAKE) -f CMakeFiles/reconnect.dir/build.make CMakeFiles/reconnect.dir/src/support/handy/examples/reconnect.cc.i
+.PHONY : src/support/handy/examples/reconnect.cc.i
+
+src/support/handy/examples/reconnect.s: src/support/handy/examples/reconnect.cc.s
+
+.PHONY : src/support/handy/examples/reconnect.s
+
+# target to generate assembly for a file
+src/support/handy/examples/reconnect.cc.s:
+	$(MAKE) -f CMakeFiles/reconnect.dir/build.make CMakeFiles/reconnect.dir/src/support/handy/examples/reconnect.cc.s
+.PHONY : src/support/handy/examples/reconnect.cc.s
+
+src/support/handy/examples/safe-close.o: src/support/handy/examples/safe-close.cc.o
+
+.PHONY : src/support/handy/examples/safe-close.o
+
+# target to build an object file
+src/support/handy/examples/safe-close.cc.o:
+	$(MAKE) -f CMakeFiles/safe-close.dir/build.make CMakeFiles/safe-close.dir/src/support/handy/examples/safe-close.cc.o
+.PHONY : src/support/handy/examples/safe-close.cc.o
+
+src/support/handy/examples/safe-close.i: src/support/handy/examples/safe-close.cc.i
+
+.PHONY : src/support/handy/examples/safe-close.i
+
+# target to preprocess a source file
+src/support/handy/examples/safe-close.cc.i:
+	$(MAKE) -f CMakeFiles/safe-close.dir/build.make CMakeFiles/safe-close.dir/src/support/handy/examples/safe-close.cc.i
+.PHONY : src/support/handy/examples/safe-close.cc.i
+
+src/support/handy/examples/safe-close.s: src/support/handy/examples/safe-close.cc.s
+
+.PHONY : src/support/handy/examples/safe-close.s
+
+# target to generate assembly for a file
+src/support/handy/examples/safe-close.cc.s:
+	$(MAKE) -f CMakeFiles/safe-close.dir/build.make CMakeFiles/safe-close.dir/src/support/handy/examples/safe-close.cc.s
+.PHONY : src/support/handy/examples/safe-close.cc.s
+
+src/support/handy/examples/stat.o: src/support/handy/examples/stat.cc.o
+
+.PHONY : src/support/handy/examples/stat.o
+
+# target to build an object file
+src/support/handy/examples/stat.cc.o:
+	$(MAKE) -f CMakeFiles/stat.dir/build.make CMakeFiles/stat.dir/src/support/handy/examples/stat.cc.o
+.PHONY : src/support/handy/examples/stat.cc.o
+
+src/support/handy/examples/stat.i: src/support/handy/examples/stat.cc.i
+
+.PHONY : src/support/handy/examples/stat.i
+
+# target to preprocess a source file
+src/support/handy/examples/stat.cc.i:
+	$(MAKE) -f CMakeFiles/stat.dir/build.make CMakeFiles/stat.dir/src/support/handy/examples/stat.cc.i
+.PHONY : src/support/handy/examples/stat.cc.i
+
+src/support/handy/examples/stat.s: src/support/handy/examples/stat.cc.s
+
+.PHONY : src/support/handy/examples/stat.s
+
+# target to generate assembly for a file
+src/support/handy/examples/stat.cc.s:
+	$(MAKE) -f CMakeFiles/stat.dir/build.make CMakeFiles/stat.dir/src/support/handy/examples/stat.cc.s
+.PHONY : src/support/handy/examples/stat.cc.s
+
+src/support/handy/examples/timer.o: src/support/handy/examples/timer.cc.o
+
+.PHONY : src/support/handy/examples/timer.o
+
+# target to build an object file
+src/support/handy/examples/timer.cc.o:
+	$(MAKE) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/src/support/handy/examples/timer.cc.o
+.PHONY : src/support/handy/examples/timer.cc.o
+
+src/support/handy/examples/timer.i: src/support/handy/examples/timer.cc.i
+
+.PHONY : src/support/handy/examples/timer.i
+
+# target to preprocess a source file
+src/support/handy/examples/timer.cc.i:
+	$(MAKE) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/src/support/handy/examples/timer.cc.i
+.PHONY : src/support/handy/examples/timer.cc.i
+
+src/support/handy/examples/timer.s: src/support/handy/examples/timer.cc.s
+
+.PHONY : src/support/handy/examples/timer.s
+
+# target to generate assembly for a file
+src/support/handy/examples/timer.cc.s:
+	$(MAKE) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/src/support/handy/examples/timer.cc.s
+.PHONY : src/support/handy/examples/timer.cc.s
+
+src/support/handy/examples/udp-cli.o: src/support/handy/examples/udp-cli.cc.o
+
+.PHONY : src/support/handy/examples/udp-cli.o
+
+# target to build an object file
+src/support/handy/examples/udp-cli.cc.o:
+	$(MAKE) -f CMakeFiles/udp-cli.dir/build.make CMakeFiles/udp-cli.dir/src/support/handy/examples/udp-cli.cc.o
+.PHONY : src/support/handy/examples/udp-cli.cc.o
+
+src/support/handy/examples/udp-cli.i: src/support/handy/examples/udp-cli.cc.i
+
+.PHONY : src/support/handy/examples/udp-cli.i
+
+# target to preprocess a source file
+src/support/handy/examples/udp-cli.cc.i:
+	$(MAKE) -f CMakeFiles/udp-cli.dir/build.make CMakeFiles/udp-cli.dir/src/support/handy/examples/udp-cli.cc.i
+.PHONY : src/support/handy/examples/udp-cli.cc.i
+
+src/support/handy/examples/udp-cli.s: src/support/handy/examples/udp-cli.cc.s
+
+.PHONY : src/support/handy/examples/udp-cli.s
+
+# target to generate assembly for a file
+src/support/handy/examples/udp-cli.cc.s:
+	$(MAKE) -f CMakeFiles/udp-cli.dir/build.make CMakeFiles/udp-cli.dir/src/support/handy/examples/udp-cli.cc.s
+.PHONY : src/support/handy/examples/udp-cli.cc.s
+
+src/support/handy/examples/udp-hsha.o: src/support/handy/examples/udp-hsha.cc.o
+
+.PHONY : src/support/handy/examples/udp-hsha.o
+
+# target to build an object file
+src/support/handy/examples/udp-hsha.cc.o:
+	$(MAKE) -f CMakeFiles/udp-hsha.dir/build.make CMakeFiles/udp-hsha.dir/src/support/handy/examples/udp-hsha.cc.o
+.PHONY : src/support/handy/examples/udp-hsha.cc.o
+
+src/support/handy/examples/udp-hsha.i: src/support/handy/examples/udp-hsha.cc.i
+
+.PHONY : src/support/handy/examples/udp-hsha.i
+
+# target to preprocess a source file
+src/support/handy/examples/udp-hsha.cc.i:
+	$(MAKE) -f CMakeFiles/udp-hsha.dir/build.make CMakeFiles/udp-hsha.dir/src/support/handy/examples/udp-hsha.cc.i
+.PHONY : src/support/handy/examples/udp-hsha.cc.i
+
+src/support/handy/examples/udp-hsha.s: src/support/handy/examples/udp-hsha.cc.s
+
+.PHONY : src/support/handy/examples/udp-hsha.s
+
+# target to generate assembly for a file
+src/support/handy/examples/udp-hsha.cc.s:
+	$(MAKE) -f CMakeFiles/udp-hsha.dir/build.make CMakeFiles/udp-hsha.dir/src/support/handy/examples/udp-hsha.cc.s
+.PHONY : src/support/handy/examples/udp-hsha.cc.s
+
+src/support/handy/examples/udp-svr.o: src/support/handy/examples/udp-svr.cc.o
+
+.PHONY : src/support/handy/examples/udp-svr.o
+
+# target to build an object file
+src/support/handy/examples/udp-svr.cc.o:
+	$(MAKE) -f CMakeFiles/udp-svr.dir/build.make CMakeFiles/udp-svr.dir/src/support/handy/examples/udp-svr.cc.o
+.PHONY : src/support/handy/examples/udp-svr.cc.o
+
+src/support/handy/examples/udp-svr.i: src/support/handy/examples/udp-svr.cc.i
+
+.PHONY : src/support/handy/examples/udp-svr.i
+
+# target to preprocess a source file
+src/support/handy/examples/udp-svr.cc.i:
+	$(MAKE) -f CMakeFiles/udp-svr.dir/build.make CMakeFiles/udp-svr.dir/src/support/handy/examples/udp-svr.cc.i
+.PHONY : src/support/handy/examples/udp-svr.cc.i
+
+src/support/handy/examples/udp-svr.s: src/support/handy/examples/udp-svr.cc.s
+
+.PHONY : src/support/handy/examples/udp-svr.s
+
+# target to generate assembly for a file
+src/support/handy/examples/udp-svr.cc.s:
+	$(MAKE) -f CMakeFiles/udp-svr.dir/build.make CMakeFiles/udp-svr.dir/src/support/handy/examples/udp-svr.cc.s
+.PHONY : src/support/handy/examples/udp-svr.cc.s
+
+src/support/handy/examples/write-on-empty.o: src/support/handy/examples/write-on-empty.cc.o
+
+.PHONY : src/support/handy/examples/write-on-empty.o
+
+# target to build an object file
+src/support/handy/examples/write-on-empty.cc.o:
+	$(MAKE) -f CMakeFiles/write-on-empty.dir/build.make CMakeFiles/write-on-empty.dir/src/support/handy/examples/write-on-empty.cc.o
+.PHONY : src/support/handy/examples/write-on-empty.cc.o
+
+src/support/handy/examples/write-on-empty.i: src/support/handy/examples/write-on-empty.cc.i
+
+.PHONY : src/support/handy/examples/write-on-empty.i
+
+# target to preprocess a source file
+src/support/handy/examples/write-on-empty.cc.i:
+	$(MAKE) -f CMakeFiles/write-on-empty.dir/build.make CMakeFiles/write-on-empty.dir/src/support/handy/examples/write-on-empty.cc.i
+.PHONY : src/support/handy/examples/write-on-empty.cc.i
+
+src/support/handy/examples/write-on-empty.s: src/support/handy/examples/write-on-empty.cc.s
+
+.PHONY : src/support/handy/examples/write-on-empty.s
+
+# target to generate assembly for a file
+src/support/handy/examples/write-on-empty.cc.s:
+	$(MAKE) -f CMakeFiles/write-on-empty.dir/build.make CMakeFiles/write-on-empty.dir/src/support/handy/examples/write-on-empty.cc.s
+.PHONY : src/support/handy/examples/write-on-empty.cc.s
+
+src/support/handy/handy/codec.o: src/support/handy/handy/codec.cc.o
+
+.PHONY : src/support/handy/handy/codec.o
+
+# target to build an object file
+src/support/handy/handy/codec.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/codec.cc.o
+.PHONY : src/support/handy/handy/codec.cc.o
+
+src/support/handy/handy/codec.i: src/support/handy/handy/codec.cc.i
+
+.PHONY : src/support/handy/handy/codec.i
+
+# target to preprocess a source file
+src/support/handy/handy/codec.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/codec.cc.i
+.PHONY : src/support/handy/handy/codec.cc.i
+
+src/support/handy/handy/codec.s: src/support/handy/handy/codec.cc.s
+
+.PHONY : src/support/handy/handy/codec.s
+
+# target to generate assembly for a file
+src/support/handy/handy/codec.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/codec.cc.s
+.PHONY : src/support/handy/handy/codec.cc.s
+
+src/support/handy/handy/conf.o: src/support/handy/handy/conf.cc.o
+
+.PHONY : src/support/handy/handy/conf.o
+
+# target to build an object file
+src/support/handy/handy/conf.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/conf.cc.o
+.PHONY : src/support/handy/handy/conf.cc.o
+
+src/support/handy/handy/conf.i: src/support/handy/handy/conf.cc.i
+
+.PHONY : src/support/handy/handy/conf.i
+
+# target to preprocess a source file
+src/support/handy/handy/conf.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/conf.cc.i
+.PHONY : src/support/handy/handy/conf.cc.i
+
+src/support/handy/handy/conf.s: src/support/handy/handy/conf.cc.s
+
+.PHONY : src/support/handy/handy/conf.s
+
+# target to generate assembly for a file
+src/support/handy/handy/conf.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/conf.cc.s
+.PHONY : src/support/handy/handy/conf.cc.s
+
+src/support/handy/handy/conn.o: src/support/handy/handy/conn.cc.o
+
+.PHONY : src/support/handy/handy/conn.o
+
+# target to build an object file
+src/support/handy/handy/conn.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/conn.cc.o
+.PHONY : src/support/handy/handy/conn.cc.o
+
+src/support/handy/handy/conn.i: src/support/handy/handy/conn.cc.i
+
+.PHONY : src/support/handy/handy/conn.i
+
+# target to preprocess a source file
+src/support/handy/handy/conn.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/conn.cc.i
+.PHONY : src/support/handy/handy/conn.cc.i
+
+src/support/handy/handy/conn.s: src/support/handy/handy/conn.cc.s
+
+.PHONY : src/support/handy/handy/conn.s
+
+# target to generate assembly for a file
+src/support/handy/handy/conn.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/conn.cc.s
+.PHONY : src/support/handy/handy/conn.cc.s
+
+src/support/handy/handy/daemon.o: src/support/handy/handy/daemon.cc.o
+
+.PHONY : src/support/handy/handy/daemon.o
+
+# target to build an object file
+src/support/handy/handy/daemon.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/daemon.cc.o
+.PHONY : src/support/handy/handy/daemon.cc.o
+
+src/support/handy/handy/daemon.i: src/support/handy/handy/daemon.cc.i
+
+.PHONY : src/support/handy/handy/daemon.i
+
+# target to preprocess a source file
+src/support/handy/handy/daemon.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/daemon.cc.i
+.PHONY : src/support/handy/handy/daemon.cc.i
+
+src/support/handy/handy/daemon.s: src/support/handy/handy/daemon.cc.s
+
+.PHONY : src/support/handy/handy/daemon.s
+
+# target to generate assembly for a file
+src/support/handy/handy/daemon.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/daemon.cc.s
+.PHONY : src/support/handy/handy/daemon.cc.s
+
+src/support/handy/handy/event_base.o: src/support/handy/handy/event_base.cc.o
+
+.PHONY : src/support/handy/handy/event_base.o
+
+# target to build an object file
+src/support/handy/handy/event_base.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/event_base.cc.o
+.PHONY : src/support/handy/handy/event_base.cc.o
+
+src/support/handy/handy/event_base.i: src/support/handy/handy/event_base.cc.i
+
+.PHONY : src/support/handy/handy/event_base.i
+
+# target to preprocess a source file
+src/support/handy/handy/event_base.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/event_base.cc.i
+.PHONY : src/support/handy/handy/event_base.cc.i
+
+src/support/handy/handy/event_base.s: src/support/handy/handy/event_base.cc.s
+
+.PHONY : src/support/handy/handy/event_base.s
+
+# target to generate assembly for a file
+src/support/handy/handy/event_base.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/event_base.cc.s
+.PHONY : src/support/handy/handy/event_base.cc.s
+
+src/support/handy/handy/file.o: src/support/handy/handy/file.cc.o
+
+.PHONY : src/support/handy/handy/file.o
+
+# target to build an object file
+src/support/handy/handy/file.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/file.cc.o
+.PHONY : src/support/handy/handy/file.cc.o
+
+src/support/handy/handy/file.i: src/support/handy/handy/file.cc.i
+
+.PHONY : src/support/handy/handy/file.i
+
+# target to preprocess a source file
+src/support/handy/handy/file.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/file.cc.i
+.PHONY : src/support/handy/handy/file.cc.i
+
+src/support/handy/handy/file.s: src/support/handy/handy/file.cc.s
+
+.PHONY : src/support/handy/handy/file.s
+
+# target to generate assembly for a file
+src/support/handy/handy/file.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/file.cc.s
+.PHONY : src/support/handy/handy/file.cc.s
+
+src/support/handy/handy/http.o: src/support/handy/handy/http.cc.o
+
+.PHONY : src/support/handy/handy/http.o
+
+# target to build an object file
+src/support/handy/handy/http.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/http.cc.o
+.PHONY : src/support/handy/handy/http.cc.o
+
+src/support/handy/handy/http.i: src/support/handy/handy/http.cc.i
+
+.PHONY : src/support/handy/handy/http.i
+
+# target to preprocess a source file
+src/support/handy/handy/http.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/http.cc.i
+.PHONY : src/support/handy/handy/http.cc.i
+
+src/support/handy/handy/http.s: src/support/handy/handy/http.cc.s
+
+.PHONY : src/support/handy/handy/http.s
+
+# target to generate assembly for a file
+src/support/handy/handy/http.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/http.cc.s
+.PHONY : src/support/handy/handy/http.cc.s
+
+src/support/handy/handy/logging.o: src/support/handy/handy/logging.cc.o
+
+.PHONY : src/support/handy/handy/logging.o
+
+# target to build an object file
+src/support/handy/handy/logging.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/logging.cc.o
+.PHONY : src/support/handy/handy/logging.cc.o
+
+src/support/handy/handy/logging.i: src/support/handy/handy/logging.cc.i
+
+.PHONY : src/support/handy/handy/logging.i
+
+# target to preprocess a source file
+src/support/handy/handy/logging.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/logging.cc.i
+.PHONY : src/support/handy/handy/logging.cc.i
+
+src/support/handy/handy/logging.s: src/support/handy/handy/logging.cc.s
+
+.PHONY : src/support/handy/handy/logging.s
+
+# target to generate assembly for a file
+src/support/handy/handy/logging.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/logging.cc.s
+.PHONY : src/support/handy/handy/logging.cc.s
+
+src/support/handy/handy/net.o: src/support/handy/handy/net.cc.o
+
+.PHONY : src/support/handy/handy/net.o
+
+# target to build an object file
+src/support/handy/handy/net.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/net.cc.o
+.PHONY : src/support/handy/handy/net.cc.o
+
+src/support/handy/handy/net.i: src/support/handy/handy/net.cc.i
+
+.PHONY : src/support/handy/handy/net.i
+
+# target to preprocess a source file
+src/support/handy/handy/net.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/net.cc.i
+.PHONY : src/support/handy/handy/net.cc.i
+
+src/support/handy/handy/net.s: src/support/handy/handy/net.cc.s
+
+.PHONY : src/support/handy/handy/net.s
+
+# target to generate assembly for a file
+src/support/handy/handy/net.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/net.cc.s
+.PHONY : src/support/handy/handy/net.cc.s
+
+src/support/handy/handy/poller.o: src/support/handy/handy/poller.cc.o
+
+.PHONY : src/support/handy/handy/poller.o
+
+# target to build an object file
+src/support/handy/handy/poller.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/poller.cc.o
+.PHONY : src/support/handy/handy/poller.cc.o
+
+src/support/handy/handy/poller.i: src/support/handy/handy/poller.cc.i
+
+.PHONY : src/support/handy/handy/poller.i
+
+# target to preprocess a source file
+src/support/handy/handy/poller.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/poller.cc.i
+.PHONY : src/support/handy/handy/poller.cc.i
+
+src/support/handy/handy/poller.s: src/support/handy/handy/poller.cc.s
+
+.PHONY : src/support/handy/handy/poller.s
+
+# target to generate assembly for a file
+src/support/handy/handy/poller.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/poller.cc.s
+.PHONY : src/support/handy/handy/poller.cc.s
+
+src/support/handy/handy/port_posix.o: src/support/handy/handy/port_posix.cc.o
+
+.PHONY : src/support/handy/handy/port_posix.o
+
+# target to build an object file
+src/support/handy/handy/port_posix.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/port_posix.cc.o
+.PHONY : src/support/handy/handy/port_posix.cc.o
+
+src/support/handy/handy/port_posix.i: src/support/handy/handy/port_posix.cc.i
+
+.PHONY : src/support/handy/handy/port_posix.i
+
+# target to preprocess a source file
+src/support/handy/handy/port_posix.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/port_posix.cc.i
+.PHONY : src/support/handy/handy/port_posix.cc.i
+
+src/support/handy/handy/port_posix.s: src/support/handy/handy/port_posix.cc.s
+
+.PHONY : src/support/handy/handy/port_posix.s
+
+# target to generate assembly for a file
+src/support/handy/handy/port_posix.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/port_posix.cc.s
+.PHONY : src/support/handy/handy/port_posix.cc.s
+
+src/support/handy/handy/stat-svr.o: src/support/handy/handy/stat-svr.cc.o
+
+.PHONY : src/support/handy/handy/stat-svr.o
+
+# target to build an object file
+src/support/handy/handy/stat-svr.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/stat-svr.cc.o
+.PHONY : src/support/handy/handy/stat-svr.cc.o
+
+src/support/handy/handy/stat-svr.i: src/support/handy/handy/stat-svr.cc.i
+
+.PHONY : src/support/handy/handy/stat-svr.i
+
+# target to preprocess a source file
+src/support/handy/handy/stat-svr.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/stat-svr.cc.i
+.PHONY : src/support/handy/handy/stat-svr.cc.i
+
+src/support/handy/handy/stat-svr.s: src/support/handy/handy/stat-svr.cc.s
+
+.PHONY : src/support/handy/handy/stat-svr.s
+
+# target to generate assembly for a file
+src/support/handy/handy/stat-svr.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/stat-svr.cc.s
+.PHONY : src/support/handy/handy/stat-svr.cc.s
+
+src/support/handy/handy/threads.o: src/support/handy/handy/threads.cc.o
+
+.PHONY : src/support/handy/handy/threads.o
+
+# target to build an object file
+src/support/handy/handy/threads.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/threads.cc.o
+.PHONY : src/support/handy/handy/threads.cc.o
+
+src/support/handy/handy/threads.i: src/support/handy/handy/threads.cc.i
+
+.PHONY : src/support/handy/handy/threads.i
+
+# target to preprocess a source file
+src/support/handy/handy/threads.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/threads.cc.i
+.PHONY : src/support/handy/handy/threads.cc.i
+
+src/support/handy/handy/threads.s: src/support/handy/handy/threads.cc.s
+
+.PHONY : src/support/handy/handy/threads.s
+
+# target to generate assembly for a file
+src/support/handy/handy/threads.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/threads.cc.s
+.PHONY : src/support/handy/handy/threads.cc.s
+
+src/support/handy/handy/udp.o: src/support/handy/handy/udp.cc.o
+
+.PHONY : src/support/handy/handy/udp.o
+
+# target to build an object file
+src/support/handy/handy/udp.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/udp.cc.o
+.PHONY : src/support/handy/handy/udp.cc.o
+
+src/support/handy/handy/udp.i: src/support/handy/handy/udp.cc.i
+
+.PHONY : src/support/handy/handy/udp.i
+
+# target to preprocess a source file
+src/support/handy/handy/udp.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/udp.cc.i
+.PHONY : src/support/handy/handy/udp.cc.i
+
+src/support/handy/handy/udp.s: src/support/handy/handy/udp.cc.s
+
+.PHONY : src/support/handy/handy/udp.s
+
+# target to generate assembly for a file
+src/support/handy/handy/udp.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/udp.cc.s
+.PHONY : src/support/handy/handy/udp.cc.s
+
+src/support/handy/handy/util.o: src/support/handy/handy/util.cc.o
+
+.PHONY : src/support/handy/handy/util.o
+
+# target to build an object file
+src/support/handy/handy/util.cc.o:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/util.cc.o
+.PHONY : src/support/handy/handy/util.cc.o
+
+src/support/handy/handy/util.i: src/support/handy/handy/util.cc.i
+
+.PHONY : src/support/handy/handy/util.i
+
+# target to preprocess a source file
+src/support/handy/handy/util.cc.i:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/util.cc.i
+.PHONY : src/support/handy/handy/util.cc.i
+
+src/support/handy/handy/util.s: src/support/handy/handy/util.cc.s
+
+.PHONY : src/support/handy/handy/util.s
+
+# target to generate assembly for a file
+src/support/handy/handy/util.cc.s:
+	$(MAKE) -f CMakeFiles/handy.dir/build.make CMakeFiles/handy.dir/src/support/handy/handy/util.cc.s
+.PHONY : src/support/handy/handy/util.cc.s
+
+src/support/handy/raw-examples/kqueue.o: src/support/handy/raw-examples/kqueue.cc.o
+
+.PHONY : src/support/handy/raw-examples/kqueue.o
+
+# target to build an object file
+src/support/handy/raw-examples/kqueue.cc.o:
+	$(MAKE) -f CMakeFiles/kqueue.dir/build.make CMakeFiles/kqueue.dir/src/support/handy/raw-examples/kqueue.cc.o
+.PHONY : src/support/handy/raw-examples/kqueue.cc.o
+
+src/support/handy/raw-examples/kqueue.i: src/support/handy/raw-examples/kqueue.cc.i
+
+.PHONY : src/support/handy/raw-examples/kqueue.i
+
+# target to preprocess a source file
+src/support/handy/raw-examples/kqueue.cc.i:
+	$(MAKE) -f CMakeFiles/kqueue.dir/build.make CMakeFiles/kqueue.dir/src/support/handy/raw-examples/kqueue.cc.i
+.PHONY : src/support/handy/raw-examples/kqueue.cc.i
+
+src/support/handy/raw-examples/kqueue.s: src/support/handy/raw-examples/kqueue.cc.s
+
+.PHONY : src/support/handy/raw-examples/kqueue.s
+
+# target to generate assembly for a file
+src/support/handy/raw-examples/kqueue.cc.s:
+	$(MAKE) -f CMakeFiles/kqueue.dir/build.make CMakeFiles/kqueue.dir/src/support/handy/raw-examples/kqueue.cc.s
+.PHONY : src/support/handy/raw-examples/kqueue.cc.s
 
 test/random_test.o: test/random_test.cpp.o
 
@@ -156,9 +1294,127 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... kqueue"
+	@echo "... udp-cli"
+	@echo "... 10m-cli"
+	@echo "... timer"
+	@echo "... udp-svr"
+	@echo "... stat"
 	@echo "... rebuild_cache"
+	@echo "... safe-close"
 	@echo "... edit_cache"
+	@echo "... write-on-empty"
+	@echo "... codec-svr"
+	@echo "... udp-hsha"
+	@echo "... daemon"
 	@echo "... test_main"
+	@echo "... http-hello"
+	@echo "... handy"
+	@echo "... idle-close"
+	@echo "... echo"
+	@echo "... codec-cli"
+	@echo "... hsha"
+	@echo "... 10m-svr"
+	@echo "... reconnect"
+	@echo "... src/support/handy/10m/10m-cli.o"
+	@echo "... src/support/handy/10m/10m-cli.i"
+	@echo "... src/support/handy/10m/10m-cli.s"
+	@echo "... src/support/handy/10m/10m-svr.o"
+	@echo "... src/support/handy/10m/10m-svr.i"
+	@echo "... src/support/handy/10m/10m-svr.s"
+	@echo "... src/support/handy/examples/codec-cli.o"
+	@echo "... src/support/handy/examples/codec-cli.i"
+	@echo "... src/support/handy/examples/codec-cli.s"
+	@echo "... src/support/handy/examples/codec-svr.o"
+	@echo "... src/support/handy/examples/codec-svr.i"
+	@echo "... src/support/handy/examples/codec-svr.s"
+	@echo "... src/support/handy/examples/daemon.o"
+	@echo "... src/support/handy/examples/daemon.i"
+	@echo "... src/support/handy/examples/daemon.s"
+	@echo "... src/support/handy/examples/echo.o"
+	@echo "... src/support/handy/examples/echo.i"
+	@echo "... src/support/handy/examples/echo.s"
+	@echo "... src/support/handy/examples/hsha.o"
+	@echo "... src/support/handy/examples/hsha.i"
+	@echo "... src/support/handy/examples/hsha.s"
+	@echo "... src/support/handy/examples/http-hello.o"
+	@echo "... src/support/handy/examples/http-hello.i"
+	@echo "... src/support/handy/examples/http-hello.s"
+	@echo "... src/support/handy/examples/idle-close.o"
+	@echo "... src/support/handy/examples/idle-close.i"
+	@echo "... src/support/handy/examples/idle-close.s"
+	@echo "... src/support/handy/examples/reconnect.o"
+	@echo "... src/support/handy/examples/reconnect.i"
+	@echo "... src/support/handy/examples/reconnect.s"
+	@echo "... src/support/handy/examples/safe-close.o"
+	@echo "... src/support/handy/examples/safe-close.i"
+	@echo "... src/support/handy/examples/safe-close.s"
+	@echo "... src/support/handy/examples/stat.o"
+	@echo "... src/support/handy/examples/stat.i"
+	@echo "... src/support/handy/examples/stat.s"
+	@echo "... src/support/handy/examples/timer.o"
+	@echo "... src/support/handy/examples/timer.i"
+	@echo "... src/support/handy/examples/timer.s"
+	@echo "... src/support/handy/examples/udp-cli.o"
+	@echo "... src/support/handy/examples/udp-cli.i"
+	@echo "... src/support/handy/examples/udp-cli.s"
+	@echo "... src/support/handy/examples/udp-hsha.o"
+	@echo "... src/support/handy/examples/udp-hsha.i"
+	@echo "... src/support/handy/examples/udp-hsha.s"
+	@echo "... src/support/handy/examples/udp-svr.o"
+	@echo "... src/support/handy/examples/udp-svr.i"
+	@echo "... src/support/handy/examples/udp-svr.s"
+	@echo "... src/support/handy/examples/write-on-empty.o"
+	@echo "... src/support/handy/examples/write-on-empty.i"
+	@echo "... src/support/handy/examples/write-on-empty.s"
+	@echo "... src/support/handy/handy/codec.o"
+	@echo "... src/support/handy/handy/codec.i"
+	@echo "... src/support/handy/handy/codec.s"
+	@echo "... src/support/handy/handy/conf.o"
+	@echo "... src/support/handy/handy/conf.i"
+	@echo "... src/support/handy/handy/conf.s"
+	@echo "... src/support/handy/handy/conn.o"
+	@echo "... src/support/handy/handy/conn.i"
+	@echo "... src/support/handy/handy/conn.s"
+	@echo "... src/support/handy/handy/daemon.o"
+	@echo "... src/support/handy/handy/daemon.i"
+	@echo "... src/support/handy/handy/daemon.s"
+	@echo "... src/support/handy/handy/event_base.o"
+	@echo "... src/support/handy/handy/event_base.i"
+	@echo "... src/support/handy/handy/event_base.s"
+	@echo "... src/support/handy/handy/file.o"
+	@echo "... src/support/handy/handy/file.i"
+	@echo "... src/support/handy/handy/file.s"
+	@echo "... src/support/handy/handy/http.o"
+	@echo "... src/support/handy/handy/http.i"
+	@echo "... src/support/handy/handy/http.s"
+	@echo "... src/support/handy/handy/logging.o"
+	@echo "... src/support/handy/handy/logging.i"
+	@echo "... src/support/handy/handy/logging.s"
+	@echo "... src/support/handy/handy/net.o"
+	@echo "... src/support/handy/handy/net.i"
+	@echo "... src/support/handy/handy/net.s"
+	@echo "... src/support/handy/handy/poller.o"
+	@echo "... src/support/handy/handy/poller.i"
+	@echo "... src/support/handy/handy/poller.s"
+	@echo "... src/support/handy/handy/port_posix.o"
+	@echo "... src/support/handy/handy/port_posix.i"
+	@echo "... src/support/handy/handy/port_posix.s"
+	@echo "... src/support/handy/handy/stat-svr.o"
+	@echo "... src/support/handy/handy/stat-svr.i"
+	@echo "... src/support/handy/handy/stat-svr.s"
+	@echo "... src/support/handy/handy/threads.o"
+	@echo "... src/support/handy/handy/threads.i"
+	@echo "... src/support/handy/handy/threads.s"
+	@echo "... src/support/handy/handy/udp.o"
+	@echo "... src/support/handy/handy/udp.i"
+	@echo "... src/support/handy/handy/udp.s"
+	@echo "... src/support/handy/handy/util.o"
+	@echo "... src/support/handy/handy/util.i"
+	@echo "... src/support/handy/handy/util.s"
+	@echo "... src/support/handy/raw-examples/kqueue.o"
+	@echo "... src/support/handy/raw-examples/kqueue.i"
+	@echo "... src/support/handy/raw-examples/kqueue.s"
 	@echo "... test/random_test.o"
 	@echo "... test/random_test.i"
 	@echo "... test/random_test.s"
