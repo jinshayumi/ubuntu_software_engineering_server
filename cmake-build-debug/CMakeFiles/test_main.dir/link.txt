@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/test_main.dir/test/random_test.cpp.o  -o test_main 
