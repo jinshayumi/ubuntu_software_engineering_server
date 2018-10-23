@@ -11,7 +11,7 @@
 using namespace std;
 using namespace SwChen::tools;
 
-void test_list_int_string(){
+void test_serialize_list_int_string(){
 
     list<string> str_list;
     str_list.push_back("str1");
@@ -27,7 +27,11 @@ void test_list_int_string(){
 
 }
 
-void test_map_string_string(){
+void test_deserialize_list_int_string(){
+    const string list_int("[1,2,3]");
+    deserialize(list_int);
+}
+void test_serialize_map_string_string(){
 
     map<string, string> str_str_map;
     str_str_map["first"] = "1";
@@ -40,8 +44,8 @@ void test_map_string_string(){
 int main()
 {
 
-    test_list_int_string();
-    test_map_string_string();
+    test_serialize_list_int_string();
+    test_serialize_map_string_string();
 
     return 0;
 }

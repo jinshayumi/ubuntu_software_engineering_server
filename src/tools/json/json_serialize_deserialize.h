@@ -30,6 +30,7 @@ namespace SwChen {
         */
         template<typename _T>
         const string serialize(const list<_T> &_list) {
+
             StaticJsonBuffer<list_json_len> jsonBuffer;
             JsonArray &array_json = jsonBuffer.createArray();
 
@@ -44,6 +45,23 @@ namespace SwChen {
             return output;
         }
 
+        template <typename _T>
+        list<_T> deserialize(const string &json){
+
+            StaticJsonBuffer<list_json_len> jsonBuffer;
+            JsonArray &array_json = jsonBuffer.parse(json);
+
+            list<_T> _list;
+
+            auto index_end = array_json.size();
+            for(int index = 0;index != index_end; ++index){
+                _T item = array_json[index];
+                _list.push_back(item);
+            }
+
+            return _list;
+
+        }
 
 
         const string serialize(const map<string, string> _map){
