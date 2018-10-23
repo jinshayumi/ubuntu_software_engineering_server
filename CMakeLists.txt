@@ -5,15 +5,24 @@ set(CMAKE_CXX_STANDARD 11)
 
 
 include_directories("${PROJECT_SOURCE_DIR}")
+include_directories(src/support)
+include_directories(src/support/handy)
+include_directories(src/tools)
+
+#add ArduinoJson
+aux_source_directory(src/support/ArduinoJson ArduinoJson_lib)
+set(ArduinoJson ${ArduinoJson_lib})
 
 #add handy
-include_directories(src/support/handy)
 aux_source_directory(${CMAKE_SOURCE_DIR}/src/support/handy/handy HANDY_SRCS)
 add_library(handy
         ${HANDY_SRCS}
         )
 
 add_executable(test_main test/random_test.cpp)
+add_executable(test_json test/tools/json/test_json.cpp
+        ${ArduinoJson}
+        )
 
 #####handy module
 set(handy_path src/support/handy)
