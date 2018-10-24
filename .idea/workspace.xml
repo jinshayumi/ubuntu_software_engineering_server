@@ -1,31 +1,480 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="software_engineering" targetName="write-on-empty" />
+      <config projectName="software_engineering" targetName="http-hello" />
+      <config projectName="software_engineering" targetName="idle-close" />
+      <config projectName="software_engineering" targetName="stat" />
+      <config projectName="software_engineering" targetName="test_json" />
+      <config projectName="software_engineering" targetName="test_main" />
+      <config projectName="software_engineering" targetName="daemon" />
+      <config projectName="software_engineering" targetName="kqueue" />
+      <config projectName="software_engineering" targetName="10m-svr" />
+      <config projectName="software_engineering" targetName="codec-svr" />
+      <config projectName="software_engineering" targetName="udp-cli" />
+      <config projectName="software_engineering" targetName="timer" />
+      <config projectName="software_engineering" targetName="10m-cli" />
+      <config projectName="software_engineering" targetName="codec-cli" />
+      <config projectName="software_engineering" targetName="echo" />
+      <config projectName="software_engineering" targetName="hsha" />
+      <config projectName="software_engineering" targetName="reconnect" />
+      <config projectName="software_engineering" targetName="udp-svr" />
+      <config projectName="software_engineering" targetName="handy" />
+      <config projectName="software_engineering" targetName="safe-close" />
+      <config projectName="software_engineering" targetName="udp-hsha" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="ChangeListManager">
+    <list default="true" id="230e8e0d-ffe2-4969-bf90-0940c7ce8529" name="Default Changelist" comment="add json deserialize for list and map&#10;json list/map serialize/deserialize finished">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/json/json_serialize_deserialize.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/json/json_serialize_deserialize.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/json/json_serialize_deserialize.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tools/json/test_json.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/tools/json/test_json.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-765733352">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cc" value="4" />
+          <entry key="cpp" value="1269" />
+          <entry key="h" value="2577" />
+          <entry key="txt" value="342" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="172" />
+          <entry key="Doxygen file" value="13" />
+          <entry key="ObjectiveC" value="3837" />
+          <entry key="PLAIN_TEXT" value="170" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cc" value="1" />
+          <entry key="cpp" value="1" />
+          <entry key="hpp" value="2" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tools/json/json_serialize_deserialize.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1447">
+              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+              <folding>
+                <element signature="e#158#177#0" expanded="true" />
+                <element signature="e#1258#1271#0" expanded="true" />
+                <element signature="e#1971#1984#0" expanded="true" />
+                <element signature="e#3021#3034#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/tools/json/test_json.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#41#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/tools/json_serialize_deserialize.h" />
+        <option value="$PROJECT_DIR$/src/support/handy/10m/10m-cli.cc" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/tools/json/json_serialize_deserialize.h" />
+        <option value="$PROJECT_DIR$/test/tools/json/test_json.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
     <option name="width" value="1855" />
     <option name="height" value="1084" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="software_engineering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software_engineering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_engineering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software_engineering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_engineering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software_engineering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software_engineering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software_engineering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="cmake&#9;FILE&#9;file:///home/swchen/CLion_projects/software_engineering/CMakeLists.txt&#10;cmakel&#9;FILE&#9;file:///home/swchen/CLion_projects/software_engineering/CMakeLists.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.test_main">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="test_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="test_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="test_main" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tools/json" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test_json">
+    <configuration name="10m-cli" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="10m-cli" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="10m-cli">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="10m-svr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="10m-svr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="10m-svr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="codec-cli" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="codec-cli" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="codec-cli">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="codec-svr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="codec-svr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="codec-svr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="daemon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="daemon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="daemon">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="echo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="echo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="echo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="handy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="handy" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hsha" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="hsha" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="hsha">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="http-hello" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="http-hello" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="http-hello">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="idle-close" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="idle-close" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="idle-close">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kqueue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="kqueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="kqueue">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reconnect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="reconnect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="reconnect">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="safe-close" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="safe-close" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="safe-close">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="stat" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="stat">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_json" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="test_json" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="test_json">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="test_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="test_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="timer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="timer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="timer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="udp-cli" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="udp-cli" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="udp-cli">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="udp-hsha" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="udp-hsha" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="udp-hsha">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="udp-svr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="udp-svr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="udp-svr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="write-on-empty" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="software_engineering" TARGET_NAME="write-on-empty" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="software_engineering" RUN_TARGET_NAME="write-on-empty">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.10m-cli" />
+      <item itemvalue="Application.10m-svr" />
+      <item itemvalue="Application.codec-cli" />
+      <item itemvalue="Application.codec-svr" />
+      <item itemvalue="Application.daemon" />
+      <item itemvalue="Application.echo" />
+      <item itemvalue="Application.handy" />
+      <item itemvalue="Application.hsha" />
+      <item itemvalue="Application.http-hello" />
+      <item itemvalue="Application.idle-close" />
+      <item itemvalue="Application.kqueue" />
+      <item itemvalue="Application.reconnect" />
+      <item itemvalue="Application.safe-close" />
+      <item itemvalue="Application.stat" />
+      <item itemvalue="Application.test_json" />
       <item itemvalue="Application.test_main" />
+      <item itemvalue="Application.timer" />
+      <item itemvalue="Application.udp-cli" />
+      <item itemvalue="Application.udp-hsha" />
+      <item itemvalue="Application.udp-svr" />
+      <item itemvalue="Application.write-on-empty" />
     </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="230e8e0d-ffe2-4969-bf90-0940c7ce8529" name="Default Changelist" comment="" />
+      <created>1540311956781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540311956781</updated>
+      <workItem from="1540311961049" duration="3361000" />
+      <workItem from="1540357806422" duration="2243000" />
+    </task>
+    <task id="LOCAL-00001" summary="add json serialize function for list&lt;T&gt; and map&lt;string, string&gt;">
+      <created>1540314498363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540314498363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5604000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25262576" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3294979" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3294979" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3294979" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3294979" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add json serialize function for list&lt;T&gt; and map&lt;string, string&gt;" />
+    <MESSAGE value="add json deserialize for list and map&#10;json list/map serialize/deserialize finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="add json deserialize for list and map&#10;json list/map serialize/deserialize finished" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/support/ArduinoJson/ArduinoJson/Serialization/JsonWriter.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/ArduinoJson/ArduinoJson/JsonPair.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support/handy/10m/10m-cli.cc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/json/json_serialize_deserialize.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1447">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#158#177#0" expanded="true" />
+            <element signature="e#1258#1271#0" expanded="true" />
+            <element signature="e#1971#1984#0" expanded="true" />
+            <element signature="e#3021#3034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tools/json/test_json.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
