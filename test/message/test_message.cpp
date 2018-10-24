@@ -2,8 +2,8 @@
 // Created by swchen on 18-10-24.
 //
 
-#include "message/Message.h"
-#include "message/Load_msg.h"
+#include "src/message/src/Message.h"
+#include "src/message/src/Load_msg.h"
 
 using namespace SwChen::message;
 

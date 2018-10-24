@@ -1314,16 +1314,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/Load_msg.cpp">
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/src/Load_msg.cpp">
 			<Option target="test_message"/>
 		</Unit>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/Load_msg.h">
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/src/Load_msg.h">
 			<Option target="test_message"/>
 		</Unit>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/Message.cpp">
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/src/Message.cpp">
 			<Option target="test_message"/>
 		</Unit>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/Message.h">
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/src/Message.h">
 			<Option target="test_message"/>
 		</Unit>
 		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/support/MD5_coding/md5.cpp">

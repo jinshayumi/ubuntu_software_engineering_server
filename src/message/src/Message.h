@@ -11,7 +11,7 @@
 
 #include "Load_msg.h"
 
-#include "Message_Type.h"
+#include "src/message/const_value/Message_Type.h"
 #include "Define_Member.h"
 
 using namespace std;
