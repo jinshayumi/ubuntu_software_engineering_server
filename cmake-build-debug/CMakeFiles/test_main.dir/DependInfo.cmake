@@ -19,6 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/support"
   "../src/support/handy"
   "../src/tools"
+  "../src"
   )
 
 # Targets to which this target links.

@@ -27,6 +27,16 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="echo">
 				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/echo" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
@@ -39,6 +49,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -67,6 +78,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -95,6 +107,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -123,6 +136,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -151,6 +165,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -179,6 +194,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -207,6 +223,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -235,6 +252,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -246,16 +264,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-svr/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -273,6 +281,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -301,6 +310,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -317,8 +327,8 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="http-hello">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/http-hello" prefix_auto="0" extension_auto="0"/>
+			<Target title="test_message">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_message" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -329,6 +339,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -339,14 +350,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-hello"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_message"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="http-hello/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/http-hello" prefix_auto="0" extension_auto="0"/>
+			<Target title="test_message/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_message" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -357,6 +368,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -367,511 +379,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-hello/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test_main">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_main"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test_main/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_main/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="idle-close">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/idle-close" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 idle-close"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="idle-close/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/idle-close" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 idle-close/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test_json">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_json" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_json"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test_json/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_json" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_json/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="kqueue">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/kqueue" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 kqueue"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="kqueue/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/kqueue" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 kqueue/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="write-on-empty">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/write-on-empty" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 write-on-empty"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="write-on-empty/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/write-on-empty" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 write-on-empty/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="reconnect">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/reconnect" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 reconnect"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="reconnect/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/reconnect" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 reconnect/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="10m-svr">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/10m-svr" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-svr"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="10m-svr/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/10m-svr" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-svr/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="codec-cli">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/codec-cli" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-cli"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="codec-cli/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/codec-cli" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-cli/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="safe-close">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/safe-close" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 safe-close"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="safe-close/fast">
-				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/safe-close" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DOS_LINUX"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
-					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 safe-close/fast"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_message/fast"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -889,6 +397,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -917,6 +426,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -945,6 +455,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -973,6 +484,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -984,6 +496,586 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-svr/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-hello">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/http-hello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-hello"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-hello/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/http-hello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-hello/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_main">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_main/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kqueue">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/kqueue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 kqueue"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kqueue/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/kqueue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 kqueue/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_json">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_json"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_json/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/test_json" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_json/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="idle-close">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/idle-close" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 idle-close"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="idle-close/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/idle-close" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 idle-close/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="write-on-empty">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/write-on-empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 write-on-empty"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="write-on-empty/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/write-on-empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 write-on-empty/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reconnect">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/reconnect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 reconnect"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reconnect/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/reconnect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 reconnect/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10m-svr">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/10m-svr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-svr"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10m-svr/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/10m-svr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-svr/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codec-cli">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/codec-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-cli"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codec-cli/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/codec-cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-cli/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="safe-close">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/safe-close" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 safe-close"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="safe-close/fast">
+				<Option output="/home/swchen/CLion_projects/software_engineering/cmake-build-debug/safe-close" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOS_LINUX"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 safe-close/fast"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1001,6 +1093,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1029,6 +1122,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1057,6 +1151,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1085,6 +1180,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1113,6 +1209,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1141,6 +1238,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1169,6 +1267,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1197,6 +1296,7 @@
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/support/handy"/>
 					<Add directory="/home/swchen/CLion_projects/software_engineering/src/tools"/>
+					<Add directory="/home/swchen/CLion_projects/software_engineering/src"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1214,6 +1314,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/Load_msg.cpp">
+			<Option target="test_message"/>
+		</Unit>
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/Load_msg.h">
+			<Option target="test_message"/>
+		</Unit>
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/Message.cpp">
+			<Option target="test_message"/>
+		</Unit>
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message/Message.h">
+			<Option target="test_message"/>
+		</Unit>
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/support/MD5_coding/md5.cpp">
+			<Option target="test_message"/>
+		</Unit>
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/support/MD5_coding/md5.h">
+			<Option target="test_message"/>
+		</Unit>
 		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/support/handy/10m/10m-cli.cc">
 			<Option target="10m-cli"/>
 		</Unit>
@@ -1357,6 +1475,9 @@
 		</Unit>
 		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/support/handy/raw-examples/kqueue.cc">
 			<Option target="kqueue"/>
+		</Unit>
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/test/message/test_message.cpp">
+			<Option target="test_message"/>
 		</Unit>
 		<Unit filename="/home/swchen/CLion_projects/software_engineering/test/random_test.cpp">
 			<Option target="test_main"/>

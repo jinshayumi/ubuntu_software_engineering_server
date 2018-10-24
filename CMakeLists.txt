@@ -8,10 +8,19 @@ include_directories("${PROJECT_SOURCE_DIR}")
 include_directories(src/support)
 include_directories(src/support/handy)
 include_directories(src/tools)
+include_directories(src)
 
 #add ArduinoJson
 aux_source_directory(src/support/ArduinoJson ArduinoJson_lib)
 set(ArduinoJson ${ArduinoJson_lib})
+
+#add MD5
+aux_source_directory(src/support/MD5_coding MD5_lib)
+set(MD5 ${MD5_lib})
+
+#add message
+aux_source_directory(src/message message_lib)
+set(Message ${message_lib})
 
 #add handy
 aux_source_directory(${CMAKE_SOURCE_DIR}/src/support/handy/handy HANDY_SRCS)
@@ -23,7 +32,11 @@ add_executable(test_main test/random_test.cpp)
 add_executable(test_json test/tools/json/test_json.cpp
         ${ArduinoJson}
         )
-
+add_executable(test_message test/message/test_message.cpp
+        ${ArduinoJson}
+        ${Message}
+        ${MD5}
+        )
 #####handy module
 set(handy_path src/support/handy)
 

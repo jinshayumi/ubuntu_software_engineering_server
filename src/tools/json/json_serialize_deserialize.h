@@ -78,7 +78,7 @@ namespace SwChen {
          * the result of serializing of map<string, string> should be like '{"first":"1", "second":"2"}'
         */
         template <typename _T>
-        const string serialize(const map<string, _T> _map){
+        const string serialize(const map<string, _T> &_map){
             StaticJsonBuffer<map_json_len> jsonBuffer;
             JsonObject &object_json = jsonBuffer.createObject();
 

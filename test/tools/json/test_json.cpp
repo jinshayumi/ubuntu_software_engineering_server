@@ -11,7 +11,7 @@
 using namespace std;
 using namespace SwChen::tools;
 
-void test_serialize_list_int_string(){
+void test_serialize_list_int_string_bool(){
 
     cout<<"test_list_serialize"<<endl<<endl;
 
@@ -22,10 +22,16 @@ void test_serialize_list_int_string(){
     cout<<serialize(str_list)<<endl;
 
     list<int> int_list;
-    int_list.push_back(1);
-    int_list.push_back(2);
-    int_list.push_back(3);
+    int_list.emplace_back(1);
+    int_list.emplace_back(2);
+    int_list.emplace_back(3);
     cout<<serialize(int_list)<<endl;
+
+    list<int> bool_list;
+    bool_list.emplace_back(true);
+    bool_list.emplace_back(false);
+    bool_list.emplace_back(true);
+    cout<<serialize(bool_list)<<endl;
 
     cout<<"##########################"<<endl<<endl;
 
@@ -97,7 +103,7 @@ void test_deserialize_map_stringString_stringInt(){
 int main()
 {
 
-    test_serialize_list_int_string();
+    test_serialize_list_int_string_bool();
     test_deserialize_list_int_string();
 
     test_serialize_map_stringString_stringInt();
