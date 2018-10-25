@@ -12,9 +12,10 @@ const string Message::serialize() {
 
     root["op"] = this -> op;
     JsonObject &body = root.createNestedObject("body");
-    typedef void (*Funcs)(JsonObject &, void *);
+    typedef void (*Funcs)(JsonObject &, const void *);
     Funcs funcs[] = {
-            Load_msg::serialize
+            Load::serialize,
+            Cancelation::serialize
     };
 
     funcs[this->op](body, this -> body);
@@ -29,15 +30,14 @@ void Message::deserialize(const char *json) {
     StaticJsonBuffer<body_json_len> jsonBuffer;
     JsonObject &object = jsonBuffer.parseObject(json);
 
-    typedef void (*Funcs)(JsonObject &, void *&);
+    typedef void (*Funcs)(const string &, void *&);
     Funcs funcs[] = {
-            Load_msg::deserialize
+            Load::deserialize,
+            Cancelation::deserialize
     };
 
     string body = object["body"];
-    StaticJsonBuffer<body_json_len> bodyBuffer;
-    JsonObject &object_body = bodyBuffer.parseObject(body);
 
     int op = object["op"];
-    funcs[op](object_body, this -> body);
+    funcs[op](body, this -> body);
 }

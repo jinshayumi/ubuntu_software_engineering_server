@@ -9,9 +9,10 @@
 #include <string>
 #include <list>
 
-#include "Load_msg.h"
+#include "Load.h"
+#include "Cancelation.h"
 
-#include "src/message/const_value/Message_Type.h"
+#include "src/message_model/const_value/Message_Type.h"
 #include "Define_Member.h"
 
 using namespace std;

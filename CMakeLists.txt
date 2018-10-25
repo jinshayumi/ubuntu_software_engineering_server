@@ -19,7 +19,7 @@ aux_source_directory(src/support/MD5_coding MD5_lib)
 set(MD5 ${MD5_lib})
 
 #add message
-aux_source_directory(src/message/src message_lib)
+aux_source_directory(src/message_model/message message_lib)
 set(Message ${message_lib})
 
 #add handy

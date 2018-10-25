@@ -396,59 +396,86 @@ udp-cli/fast:
 	$(MAKE) -f CMakeFiles/udp-cli.dir/build.make CMakeFiles/udp-cli.dir/build
 .PHONY : udp-cli/fast
 
-src/message/src/Load_msg.o: src/message/src/Load_msg.cpp.o
+src/message_model/message/Cancelation.o: src/message_model/message/Cancelation.cpp.o
 
-.PHONY : src/message/src/Load_msg.o
-
-# target to build an object file
-src/message/src/Load_msg.cpp.o:
-	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message/src/Load_msg.cpp.o
-.PHONY : src/message/src/Load_msg.cpp.o
-
-src/message/src/Load_msg.i: src/message/src/Load_msg.cpp.i
-
-.PHONY : src/message/src/Load_msg.i
-
-# target to preprocess a source file
-src/message/src/Load_msg.cpp.i:
-	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message/src/Load_msg.cpp.i
-.PHONY : src/message/src/Load_msg.cpp.i
-
-src/message/src/Load_msg.s: src/message/src/Load_msg.cpp.s
-
-.PHONY : src/message/src/Load_msg.s
-
-# target to generate assembly for a file
-src/message/src/Load_msg.cpp.s:
-	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message/src/Load_msg.cpp.s
-.PHONY : src/message/src/Load_msg.cpp.s
-
-src/message/src/Message.o: src/message/src/Message.cpp.o
-
-.PHONY : src/message/src/Message.o
+.PHONY : src/message_model/message/Cancelation.o
 
 # target to build an object file
-src/message/src/Message.cpp.o:
-	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message/src/Message.cpp.o
-.PHONY : src/message/src/Message.cpp.o
+src/message_model/message/Cancelation.cpp.o:
+	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message_model/message/Cancelation.cpp.o
+.PHONY : src/message_model/message/Cancelation.cpp.o
 
-src/message/src/Message.i: src/message/src/Message.cpp.i
+src/message_model/message/Cancelation.i: src/message_model/message/Cancelation.cpp.i
 
-.PHONY : src/message/src/Message.i
+.PHONY : src/message_model/message/Cancelation.i
 
 # target to preprocess a source file
-src/message/src/Message.cpp.i:
-	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message/src/Message.cpp.i
-.PHONY : src/message/src/Message.cpp.i
+src/message_model/message/Cancelation.cpp.i:
+	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message_model/message/Cancelation.cpp.i
+.PHONY : src/message_model/message/Cancelation.cpp.i
 
-src/message/src/Message.s: src/message/src/Message.cpp.s
+src/message_model/message/Cancelation.s: src/message_model/message/Cancelation.cpp.s
 
-.PHONY : src/message/src/Message.s
+.PHONY : src/message_model/message/Cancelation.s
 
 # target to generate assembly for a file
-src/message/src/Message.cpp.s:
-	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message/src/Message.cpp.s
-.PHONY : src/message/src/Message.cpp.s
+src/message_model/message/Cancelation.cpp.s:
+	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message_model/message/Cancelation.cpp.s
+.PHONY : src/message_model/message/Cancelation.cpp.s
+
+src/message_model/message/Load.o: src/message_model/message/Load.cpp.o
+
+.PHONY : src/message_model/message/Load.o
+
+# target to build an object file
+src/message_model/message/Load.cpp.o:
+	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message_model/message/Load.cpp.o
+.PHONY : src/message_model/message/Load.cpp.o
+
+src/message_model/message/Load.i: src/message_model/message/Load.cpp.i
+
+.PHONY : src/message_model/message/Load.i
+
+# target to preprocess a source file
+src/message_model/message/Load.cpp.i:
+	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message_model/message/Load.cpp.i
+.PHONY : src/message_model/message/Load.cpp.i
+
+src/message_model/message/Load.s: src/message_model/message/Load.cpp.s
+
+.PHONY : src/message_model/message/Load.s
+
+# target to generate assembly for a file
+src/message_model/message/Load.cpp.s:
+	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message_model/message/Load.cpp.s
+.PHONY : src/message_model/message/Load.cpp.s
+
+src/message_model/message/Message.o: src/message_model/message/Message.cpp.o
+
+.PHONY : src/message_model/message/Message.o
+
+# target to build an object file
+src/message_model/message/Message.cpp.o:
+	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message_model/message/Message.cpp.o
+.PHONY : src/message_model/message/Message.cpp.o
+
+src/message_model/message/Message.i: src/message_model/message/Message.cpp.i
+
+.PHONY : src/message_model/message/Message.i
+
+# target to preprocess a source file
+src/message_model/message/Message.cpp.i:
+	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message_model/message/Message.cpp.i
+.PHONY : src/message_model/message/Message.cpp.i
+
+src/message_model/message/Message.s: src/message_model/message/Message.cpp.s
+
+.PHONY : src/message_model/message/Message.s
+
+# target to generate assembly for a file
+src/message_model/message/Message.cpp.s:
+	$(MAKE) -f CMakeFiles/test_message.dir/build.make CMakeFiles/test_message.dir/src/message_model/message/Message.cpp.s
+.PHONY : src/message_model/message/Message.cpp.s
 
 src/support/MD5_coding/md5.o: src/support/MD5_coding/md5.cpp.o
 
@@ -1479,12 +1506,15 @@ help:
 	@echo "... 10m-cli"
 	@echo "... hsha"
 	@echo "... udp-cli"
-	@echo "... src/message/src/Load_msg.o"
-	@echo "... src/message/src/Load_msg.i"
-	@echo "... src/message/src/Load_msg.s"
-	@echo "... src/message/src/Message.o"
-	@echo "... src/message/src/Message.i"
-	@echo "... src/message/src/Message.s"
+	@echo "... src/message_model/message/Cancelation.o"
+	@echo "... src/message_model/message/Cancelation.i"
+	@echo "... src/message_model/message/Cancelation.s"
+	@echo "... src/message_model/message/Load.o"
+	@echo "... src/message_model/message/Load.i"
+	@echo "... src/message_model/message/Load.s"
+	@echo "... src/message_model/message/Message.o"
+	@echo "... src/message_model/message/Message.i"
+	@echo "... src/message_model/message/Message.s"
 	@echo "... src/support/MD5_coding/md5.o"
 	@echo "... src/support/MD5_coding/md5.i"
 	@echo "... src/support/MD5_coding/md5.s"

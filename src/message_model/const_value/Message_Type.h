@@ -9,11 +9,19 @@ namespace SwChen{
 
     namespace message{
 
-        struct Message_Type{
-            static const unsigned short DEFAULT = 0;
-            static const unsigned short Cancellation = 0;
-            static const unsigned short Load = 1;
+        class Message_Type{
+
+        public:
+            enum {
+                DEFAULT = -1,
+                Cancelation = 0,
+                Load = 1
+            };
+
         };
+
+
+
     }
 }
 

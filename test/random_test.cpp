@@ -4,23 +4,21 @@
 
 #include<iostream>
 
+#include "tools/Const_Values.h"
+
 using namespace std;
-
-typedef int(*F)();
-
-int f1(){}
-int f2(){}
-int f3(){}
-int f4(){}
-int f5(){}
-
-F funcs[] = {
-        f1,
-        f2,
-        f3
-};
+using namespace SwChen::tools;
 
 int main()
 {
+    string str = _STRING;
+    int in = _INT;
+    string _str = move(str);
+    string __str = _STRING;
+    cout<<__str<<endl;
+
+    int _in = move(in);
+    int __in = _INT;
+    cout<<__in<<endl;
     return 0;
 }

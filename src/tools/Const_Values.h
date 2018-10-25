@@ -5,11 +5,16 @@
 #ifndef SOFTWARE_ENGINEERING_CONST_VALUES_H
 #define SOFTWARE_ENGINEERING_CONST_VALUES_H
 
+#include <string>
+
 namespace SwChen{
 
     namespace tools{
 
-        const unsigned short INT_DEFAULT = 0;
+        static const std::string _STRING = "";
+        static const int _INT = -1;
+        static const bool _BOOL = false;
+
     }
 }
 
