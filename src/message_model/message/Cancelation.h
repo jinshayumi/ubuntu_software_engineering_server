@@ -20,24 +20,41 @@ using namespace SwChen::tools;
 
 #define Cancelation_json_len 1000
 
-namespace SwChen{
+namespace SwChen {
 
-    namespace message{
+    namespace message {
 
-        class Cancelation{
+        class Cancelation {
 
         public:
-            Cancelation(string acount = _STRING, string device = _STRING):
-                    acount(move(acount)),
-                    device(move(device)){
-                cout<<"Cancelation constructor"<<endl;
+
+            explicit Cancelation(string acount = _STRING, string device = _STRING) :
+                    acount(std::move(acount)),
+                    device(std::move(device)) {
+                cout << "Cancelation constructor" << endl;
             }
 
-            DEFINE_SIMPLE_MEMBER(acount, string);
-            DEFINE_SIMPLE_MEMBER(device, string);
+        DEFINE_SIMPLE_MEMBER(acount, string);
+        DEFINE_SIMPLE_MEMBER(device, string);
 
-            static void serialize(JsonObject &root, const void *cancelation);
-            static void deserialize(const string &json, void *&cancelation);
+
+            static void serialize(JsonObject &root, const void *cancelation) {
+                root["acount"] = ((Cancelation *) cancelation)->get_acount();
+                root["device"] = ((Cancelation *) cancelation)->get_device();
+            }
+
+            static void deserialize(const string &json, void *&cancelation) {
+                if (!cancelation) {
+                    cancelation = new Cancelation();
+                }
+
+                StaticJsonBuffer<Cancelation_json_len> jsonBuffer;
+                JsonObject &root = jsonBuffer.parseObject(json);
+
+                ((Cancelation *) cancelation)->set_acount(root["acount"]);
+                ((Cancelation *) cancelation)->set_device(root["device"]);
+
+            }
 
         };
     }

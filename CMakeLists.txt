@@ -20,7 +20,7 @@ set(MD5 ${MD5_lib})
 
 #add message
 aux_source_directory(src/message_model/message message_lib)
-set(Message ${message_lib})
+set(Message ${message_lib} src/message_model/message/Req_Friends.h src/message_model/message/Message_CS.h)
 
 #add handy
 aux_source_directory(${CMAKE_SOURCE_DIR}/src/support/handy/handy HANDY_SRCS)

@@ -11,30 +11,30 @@
 				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/swchen/CLion_projects/software_engineering/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="echo">
@@ -60,10 +60,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="echo/fast">
@@ -89,10 +89,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="daemon">
@@ -118,10 +118,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 daemon"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 daemon"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="daemon/fast">
@@ -147,10 +147,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 daemon/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 daemon/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="udp-hsha">
@@ -176,10 +176,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-hsha"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-hsha"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="udp-hsha/fast">
@@ -205,10 +205,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-hsha/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-hsha/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="codec-svr">
@@ -234,10 +234,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-svr"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-svr"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="codec-svr/fast">
@@ -263,10 +263,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-svr/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-svr/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="handy">
@@ -292,10 +292,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 handy"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 handy"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="handy/fast">
@@ -321,10 +321,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 handy/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 handy/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_message">
@@ -350,10 +350,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_message"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_message"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_message/fast">
@@ -379,10 +379,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_message/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_message/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stat">
@@ -408,10 +408,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 stat"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 stat"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stat/fast">
@@ -437,10 +437,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 stat/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 stat/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="udp-svr">
@@ -466,10 +466,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-svr"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-svr"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="udp-svr/fast">
@@ -495,10 +495,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-svr/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-svr/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="http-hello">
@@ -524,10 +524,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-hello"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-hello"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="http-hello/fast">
@@ -553,10 +553,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-hello/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 http-hello/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_main">
@@ -582,10 +582,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_main/fast">
@@ -611,10 +611,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kqueue">
@@ -640,10 +640,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 kqueue"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 kqueue"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kqueue/fast">
@@ -669,10 +669,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 kqueue/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 kqueue/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_json">
@@ -698,10 +698,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_json"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_json"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_json/fast">
@@ -727,10 +727,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_json/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_json/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="idle-close">
@@ -756,10 +756,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 idle-close"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 idle-close"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="idle-close/fast">
@@ -785,10 +785,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 idle-close/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 idle-close/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="write-on-empty">
@@ -814,10 +814,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 write-on-empty"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 write-on-empty"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="write-on-empty/fast">
@@ -843,10 +843,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 write-on-empty/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 write-on-empty/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="reconnect">
@@ -872,10 +872,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 reconnect"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 reconnect"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="reconnect/fast">
@@ -901,10 +901,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 reconnect/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 reconnect/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="10m-svr">
@@ -930,10 +930,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-svr"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-svr"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="10m-svr/fast">
@@ -959,10 +959,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-svr/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-svr/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="codec-cli">
@@ -988,10 +988,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-cli"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-cli"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="codec-cli/fast">
@@ -1017,10 +1017,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-cli/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 codec-cli/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="safe-close">
@@ -1046,10 +1046,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 safe-close"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 safe-close"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="safe-close/fast">
@@ -1075,10 +1075,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 safe-close/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 safe-close/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="timer">
@@ -1104,10 +1104,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="timer/fast">
@@ -1133,10 +1133,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 timer/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="10m-cli">
@@ -1162,10 +1162,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-cli"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-cli"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="10m-cli/fast">
@@ -1191,10 +1191,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-cli/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 10m-cli/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hsha">
@@ -1220,10 +1220,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 hsha"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 hsha"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hsha/fast">
@@ -1249,10 +1249,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 hsha/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 hsha/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="udp-cli">
@@ -1278,10 +1278,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-cli"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-cli"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="udp-cli/fast">
@@ -1307,29 +1307,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-cli/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 udp-cli/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/swchen/CLion_projects/software_engineering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Cancelation.cpp">
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Message_CS.h">
 			<Option target="test_message"/>
 		</Unit>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Cancelation.h">
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Message_handler.cpp">
 			<Option target="test_message"/>
 		</Unit>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Load.cpp">
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Message_handler.h">
 			<Option target="test_message"/>
 		</Unit>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Load.h">
-			<Option target="test_message"/>
-		</Unit>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Message.cpp">
-			<Option target="test_message"/>
-		</Unit>
-		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Message.h">
+		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/message_model/message/Req_Friends.h">
 			<Option target="test_message"/>
 		</Unit>
 		<Unit filename="/home/swchen/CLion_projects/software_engineering/src/support/MD5_coding/md5.cpp">

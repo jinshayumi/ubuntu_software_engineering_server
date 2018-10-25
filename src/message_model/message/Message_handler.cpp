@@ -2,11 +2,11 @@
 // Created by swchen on 18-10-24.
 //
 
-#include "Message.h"
+#include "Message_handler.h"
 
 using namespace SwChen::message;
 
-const string Message::serialize() {
+const string Message_handler::serialize() {
     StaticJsonBuffer<body_json_len> jsonBuffer;
     JsonObject &root = jsonBuffer.createObject();
 
@@ -15,7 +15,9 @@ const string Message::serialize() {
     typedef void (*Funcs)(JsonObject &, const void *);
     Funcs funcs[] = {
             Load::serialize,
-            Cancelation::serialize
+            Cancelation::serialize,
+            Req_Friends::serialize
+            
     };
 
     funcs[this->op](body, this -> body);
@@ -26,14 +28,15 @@ const string Message::serialize() {
     return output;
 }
 
-void Message::deserialize(const char *json) {
+void Message_handler::deserialize(const char *json) {
     StaticJsonBuffer<body_json_len> jsonBuffer;
     JsonObject &object = jsonBuffer.parseObject(json);
 
     typedef void (*Funcs)(const string &, void *&);
     Funcs funcs[] = {
             Load::deserialize,
-            Cancelation::deserialize
+            Cancelation::deserialize,
+            Req_Friends::deserialize
     };
 
     string body = object["body"];

@@ -9,8 +9,9 @@
 #include <string>
 #include <list>
 
-#include "Load.h"
 #include "Cancelation.h"
+#include "Load.h"
+#include "Req_Friends.h"
 
 #include "src/message_model/const_value/Message_Type.h"
 #include "Define_Member.h"
@@ -23,12 +24,12 @@ namespace SwChen{
 
     namespace message{
 
-        class Message{
+        class Message_handler{
         public:
             DEFINE_SIMPLE_MEMBER(op, unsigned short);
             DEFINE_POINTER_MEMBER(body, void *);
 
-            explicit Message(unsigned short op = Message_Type::DEFAULT, void *body = nullptr){
+            explicit Message_handler(unsigned short op = Message_Type::DEFAULT, void *body = nullptr){
                 this -> op = op;
                 this -> body = body;
             }
